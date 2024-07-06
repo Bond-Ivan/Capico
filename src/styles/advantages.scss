@@ -1,0 +1,195 @@
+.advantages {
+    padding-bottom: 9.5%;
+
+    &__header {
+        background-image: url('images/numbers-preheader.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &__title {
+        max-width: 960px;
+        padding: 30px 0 0 22px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 92.7px;
+        letter-spacing: -1.5px;
+        background: linear-gradient(96.63deg, #FFFFFF 5.78%, #5F29B7 72.85%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    &__content {
+        padding-left: 12%;
+    }
+
+    &__swiper {
+
+        &-scrollbar {
+            top: 0;
+            bottom: 0px;
+        }
+
+        &-wrapper {
+            padding-bottom: 50px;
+            padding-top: 135px;
+        }
+
+        &-slide {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 340px;
+            height: 455px;
+            padding: 50px 40px 34px 40px;
+            flex-shrink: 0;
+            border-radius: 30px;
+            border: 1px solid #402E5C;
+            background-position: 19% 34%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            transform: translateY(0%);
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-5%);
+            }
+
+            &1 {
+                background-image: url('images/advantages-img1.png');
+            }
+
+            &2 {
+                background-image: url('images/advantages-img2.png');
+            }
+
+            &3 {
+                background-image: url('images/advantages-img3.png');
+            }
+
+            &4 {
+                background-image: url('images/advantages-img4.png');
+            }
+
+            &5 {
+                background-image: url('images/advantages-img5.png');
+            }
+
+            &6 {
+                background-image: url('images/advantages-img6.png');
+            }
+
+            &__title {
+                margin-bottom: 35px;
+                text-align: left;
+                font-weight: 500;
+                font-size: 34px;
+                line-height: 31.62px;
+                letter-spacing: -1px;
+                color: white;
+            }
+
+            &__text {
+                text-align: left;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                color: #E9E3F4;
+            }
+        }
+    }
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background-color: #402E5C;
+}
+
+.swiper-pagination-horizontal {
+    top: inherit !important;
+    bottom: 0px;
+}
+
+@media (max-width: 920px) {
+    .advantages {
+        padding-bottom: 5.5%;
+
+        &__content {
+            padding-left: 1%;
+        }
+
+        &__title {
+            padding: 39px 0 0 13px;
+            font-size: 71px;
+            line-height: 73.13px;
+        }
+
+        &__swiper {
+            &-wrapper {
+                padding-top: 50px;
+            }
+
+            &-slide {
+                width: 326px;
+                height: 432px;
+
+                &__title {
+                    font-size: 32.33px;
+                    line-height: 30.07px;
+                }
+
+                &__text {
+                    font-size: 17px;
+                    line-height: 21.25px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .advantages {
+        padding-bottom: 16.5%;
+
+        &__title {
+            margin-bottom: 43px;
+            font-size: 36px;
+            line-height: 37.08px;
+            letter-spacing: -0.01em;
+        }
+
+        &__content {
+            padding-left: 0;
+        }
+
+        &__swiper {
+            &-wrapper {
+                padding-top: 0;
+                padding-bottom: 25px;
+            }
+
+            &-slide {
+                width: 150px;
+                height: 235px;
+                padding: 16px 10px;
+                border-radius: 15px;
+                background-size: 34%;
+                background-position: 15% 27%;
+
+                &__title {
+                    font-size: 16px;
+                    line-height: 14.88px;
+                    letter-spacing: -0.04em;
+                }
+
+                &__text {
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: -0.04em;
+                }
+            }
+        }
+    }
+}

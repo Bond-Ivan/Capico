@@ -1,0 +1,62 @@
+.lets-try {
+    background-image: url('images/lets-try-phone.png');
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+    &__span {
+        text-align: left;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15.45px;
+        color: #909090;
+    }
+
+    &__title {
+        max-width: 970px;
+        margin: 0 auto;
+        margin-bottom: 16%;
+        padding-top: 7.2%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 93px;
+        letter-spacing: -2px;
+        background: linear-gradient(89.92deg, #FFFFFF 10.08%, #5F29B7 98.33%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+@media (max-width: 920px) {
+    .lets-try {
+        padding-top: 14.3%;
+        padding-bottom: 84px;
+
+        &__span {
+            display: none;
+        }
+
+        &__title {
+            margin-bottom: 32%;
+            padding-top: 0;
+            font-size: 80.47px;
+            line-height: 74.84px;
+            letter-spacing: -0.04em;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .lets-try {
+        padding-top: 10%;
+        padding-bottom: 55px;
+
+        &__title {
+            margin-bottom: 40%;
+            font-size: 40px;
+            line-height: 37.6px;
+            letter-spacing: -0.03em;
+        }
+    }
+}

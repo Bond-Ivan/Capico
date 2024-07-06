@@ -1,0 +1,76 @@
+.manage {
+    position: relative;
+    background-image: url('images/manage-phone.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    &__btn-play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__container {
+        padding-top: 73px;
+        padding-bottom: 45.7%;
+    }
+
+    &__title {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 1068px;
+        font-weight: 300;
+        font-size: 70px;
+        line-height: 79.1px;
+        letter-spacing: -0.04em;
+        background: linear-gradient(95.62deg, #FFFFFF 6.35%, #5F29B7 115.75%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+@media (max-width: 920px) {
+    .manage {
+        &__container {
+            padding-top: 124px;
+            padding-bottom: 76.7%;
+        }
+
+        &__title {
+            max-width: 765px;
+            font-size: 49.88px;
+            line-height: 56.36px;
+        }
+
+        &__btn-play {
+            svg {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .manage {
+        &__container {
+            padding-top: 8%;
+            padding-bottom: 103.7%;
+        }
+
+        &__title {
+            max-width: 300px;
+            font-size: 24px;
+            line-height: 30.24px;
+            letter-spacing: -0.04em;
+        }
+
+        &__btn-play {
+            svg {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}

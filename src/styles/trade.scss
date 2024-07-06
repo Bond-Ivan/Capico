@@ -1,0 +1,200 @@
+.trade {
+    padding: 70px 0 80px 0;
+    background-image: url('images/trade-phone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        background-image: url(images/numbers-preheader.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    &__title {
+        margin-bottom: 11%;
+        padding: 70px 0 0 22px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 130px;
+        line-height: 120.9px;
+        letter-spacing: -5px;
+        color: white;
+    }
+
+    &__span {
+        padding: 20px 22px 0 0;
+        text-align: left;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 18.54px;
+        color: #8F889A;
+    }
+
+    &__text {
+        max-width: 415px;
+        margin-bottom: 6%;
+        padding-left: 30px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1px;
+        color: white;
+    }
+
+    &__btn-create {
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 45px 60px 45px 45px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 41.85px;
+        background-color: #5F29B7;
+        border-radius: 70px;
+        letter-spacing: -2px;
+        color: white;
+        will-change: transform;
+        z-index: 0;
+        box-shadow: none;
+        transition: .2s transform ease-in-out;
+
+        &::after {
+            background-color: #ad59fb;
+            border-radius: 3rem;
+            content: '';
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(-100%, 0);
+            transform-origin: top left;
+            will-change: transform;
+            z-index: -1;
+            transition: .2s transform ease-out;
+      
+          }
+      
+          &:hover::after {
+            transform: translate(0, 0);
+          }
+      
+          &:hover {
+            color: white;
+            transform: scale(1.05);
+            will-change: transform;
+            -webkit-box-shadow: 4px 4px 33px 41px rgba(69, 34, 80, 0.2);
+            -moz-box-shadow: 4px 4px 33px 41px rgba(69, 34, 80, 0.2);
+            box-shadow: 4px 4px 33px 41px rgba(69, 34, 80, 0.2);
+          }
+
+        &-svg {
+            &--arrow {
+                margin-left: 70px;
+            }
+
+            &--circle {
+                position: absolute;
+                right: 22px;
+                width: 80px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 920px) {
+    .trade {
+        padding-top: 62px;
+
+        &__title {
+            margin-bottom: 22%;
+            padding: 50px 0 0 32px;
+            font-size: 70px;
+            line-height: 65.1px;
+            letter-spacing: -3px;
+        }
+
+        &__span {
+            display: none;
+        }
+
+        &__text {
+            max-width: 275px;
+            margin-bottom: 19%;
+            padding-left: 25px;
+            text-align: left;
+            font-size: 30px;
+            line-height: 36px;
+            letter-spacing: -0.04em;
+        }
+
+        &__btn-create {
+            padding: 36px 45px 35px 80px;
+            font-size: 35.18px;
+            line-height: 32.71px;
+
+            &-svg {
+                &--circle {
+                    width: 64px;
+                    right: 25px;
+                }
+
+                &--arrow {
+                    margin-left: 70px;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .trade {
+        padding: 36px 0 55px 0;
+
+        &__title {
+            margin-bottom: 40%;
+            padding: 12px 0 0 11px;
+            font-size: 40px;
+            line-height: 37.2px;
+            letter-spacing: -0.04em;
+        }
+
+        &__text {
+            margin-bottom: 8%;
+            padding-left: 18px;
+            font-size: 22px;
+            line-height: 26.4px;
+            letter-spacing: -0.04em;
+        }
+
+        &__btn-create {
+            padding: 23px 31px 20px 61px;
+            font-size: 22.96px;
+            line-height: 21.36px;
+            letter-spacing: -0.04em;
+
+            &-svg {
+                &--circle {
+                    width: 45px;
+                    right: 13px;
+                }
+
+                &--arrow {
+                    width: 35px;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}

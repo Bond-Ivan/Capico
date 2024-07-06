@@ -1,0 +1,277 @@
+.benefits {
+
+    &__header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 10.6%;
+        background-image: url('images/numbers-preheader.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &__title {
+        padding: 26px 0 0 22px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 65.1px;
+        letter-spacing: -3px;
+        color: white;
+    }
+
+    &__span-manage {
+        padding: 24px 22px 0 0;
+        text-align: right;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15.45px;
+        letter-spacing: -1px;
+        color: #909090;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        &-1 {
+            padding-bottom: 22%;
+            background-image: url('images/benefits-phone1.png');
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+
+        &-2 {
+            padding-bottom: 20%;
+            background-image: url('images/benefits-phone2.png');
+            background-repeat: no-repeat;
+            background-position: top right;
+        }
+
+        &-3 {
+            padding: 8% 0 15% 0;
+            background-image: url('images/benefits-phone3.png');
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+
+        &-box {
+            &1 {
+                max-width: 670px;
+                margin-left: auto;
+                padding-right: 6%;
+            }
+
+            &2 {
+                max-width: 780px;
+                margin-right: auto;
+                padding: 59px 0 0 2.5%;
+                background-image: url(images/benefits-preheader.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &3 {
+                max-width: 690px;
+                margin-left: auto;
+                padding: 50px 0 0 1.5%;
+                background-image: url('images/benefits-preheader.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+
+        &-title {
+            margin-bottom: 104px;
+            text-align: left;
+            font-weight: 300;
+            font-size: 130px;
+            line-height: 120.9px;
+            letter-spacing: -5px;
+            background: linear-gradient(95.62deg, #FFFFFF 6.35%, #5F29B7 115.75%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        &-text {
+            width: 35%;
+            text-align: left;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 37.2px;
+            color: white;
+
+            &--2 {
+                width: 60%;
+            }
+        }
+
+        &-span {
+            width: 48%;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 18.54px;
+            color: #B7B1C3;
+
+            &--2 {
+                width: 30%;
+            }
+        }
+
+        &-description {
+            width: 85%;
+            padding-left: 18px;
+            text-align: left;
+            font-weight: 500;
+            letter-spacing: -2px;
+            font-size: 40px;
+            line-height: 43.2px;
+            color: #7B708D;
+
+            &__span {
+                color: white;
+                font-weight: 300;
+            }
+        }
+
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .benefits {
+
+        &__header {
+            margin-bottom: 13.2%;
+        }
+
+        &__title {
+            padding: 11px 0 0 19px;
+            font-size: 60px;
+            line-height: 55.8px;
+            letter-spacing: -2px;
+        }
+
+        &__spam-manage {
+            display: none;
+        }
+
+        &__item {
+            &-1 {
+                background-size: contain;
+            }
+
+            &-2 {
+                padding-bottom: 20.9%;
+                background-size: contain;
+            }
+
+            &-3 {
+                padding: 0 0 40% 0;
+                background-size: contain;
+            }
+
+            &-box {
+                &1 {
+                    max-width: 400px;
+                }
+
+                &2 {
+                    max-width: 400px;
+                    padding: 28px 0 0 2.5%;
+                }
+
+                &3 {
+                    max-width: 400px;
+                    padding: 56px 0 0 3.5%;
+                }
+            }
+
+            &-title {
+                margin-bottom: 64px;
+                font-size: 60px;
+                line-height: 55.8px;
+                letter-spacing: -3px;
+            }
+
+            &-text {
+                font-size: 20.85px;
+                line-height: 19.39px;
+            }
+
+            &-span {
+                width: 55%;
+                font-size: 14px;
+                line-height: 14.42px;
+            }
+
+            &-description {
+                max-width: 300px;
+                padding-left: 5px;
+                font-size: 20.85px;
+                line-height: 23.36px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .benefits {
+        &__title {
+            padding: 11px 0 0 11px;
+            font-size: 37.71px;
+            line-height: 35.07px;
+            letter-spacing: -0.04em;
+        }
+
+        &__span-manage {
+            display: none;
+        }
+
+        &__item {
+            &-1 {
+                padding-bottom: 10%;
+            }
+
+            &-2 {
+                padding-bottom: 10%;
+            }
+
+            &-3 {
+                padding-bottom: 15%;
+            }
+
+            &-box {
+
+                &3 {
+                    padding-top: 28px;
+                }
+            }
+
+            &-description {
+                font-size: 18px;
+            }
+
+            &-title {
+                font-size: 55px;
+                line-height: 51.15px;
+                letter-spacing: -0.04em;
+            }
+
+            &-text {
+                font-size: 16.85px;
+                line-height: 15.39px;
+            }
+
+            &-span {
+                font-size: 12px;
+            }
+        }
+    }
+}

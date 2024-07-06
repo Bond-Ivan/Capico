@@ -1,0 +1,198 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input {
+    &::-ms-clear {
+        display: none;
+    }
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button {
+    &::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: local('Nekst Semi-Bold'), local('Nekst SemiBold'),
+        url('fonts/Nekst-SemiBold.woff2') format('woff2'),
+        url('fonts/Nekst-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: local('Nekst Medium'), local('Nekst Medium'),
+        url('fonts/Nekst-Medium.woff2') format('woff2'),
+        url('fonts/Nekst-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: local('Nekst Regular'), local('Nekst Regular'),
+        url('fonts/Nekst-Regular.woff2') format('woff2'),
+        url('fonts/Nekst-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: local('Nekst Light'), local('Nekst Light'),
+        url('fonts/Nekst-Light.woff2') format('woff2'),
+        url('fonts/Nekst-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Nekst', Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding-left: 50px;
+    padding-right: 30px;
+
+    &-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.burger {
+    z-index: 11;
+    display: none;
+}
+
+@media (max-width: 920px) {
+    .container {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &-2 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .burger {
+        top: 37px;
+    }
+}

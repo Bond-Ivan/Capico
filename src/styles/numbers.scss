@@ -1,0 +1,311 @@
+.numbers {
+    padding-bottom: 120px;
+    border-radius: 40px;
+    background-image: url('images/numbers-phone.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+
+    &__header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 72px;
+        background-image: url('images/numbers-preheader.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &__title {
+        padding: 15px 0 0 22px;
+        text-align: left;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 55.8px;
+        letter-spacing: -2px;
+        color: white;
+    }
+
+    &__span {
+        padding: 29px 26px 0 0;
+        text-align: right;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15.45px;
+        letter-spacing: -1px;
+        color: #909090;
+    }
+
+    &__content {
+        padding-left: 60px;
+
+        &-title {
+            margin-bottom: 20px;
+            text-align: left;
+            font-weight: 300;
+            font-size: 250px;
+            line-height: 232.5px;
+            letter-spacing: -10px;
+            color: white;
+        }
+
+        &-text {
+            padding-left: 28px;
+            margin-bottom: 30px;
+            max-width: 270px;
+            color: white;
+            text-align: left;
+            font-weight: 400;
+            letter-spacing: -2px;
+            font-size: 40px;
+            line-height: 41.2px;
+        }
+    }
+
+    &__inner {
+        padding-left: 27px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__statistic {
+        max-width: 125px;
+        text-align: left;
+        letter-spacing: -2px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15.45px;
+        color: #6E647D;
+    }
+
+    &__list {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 376px);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+
+    &__card {
+        padding: 30px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        -moz-border-image: -moz-linear-gradient(96.63deg, #FFFFFF 5.78%, #5F29B7 72.85%);
+        -webkit-border-image: -webkit-linear-gradient(96.63deg, #FFFFFF 5.78%, #5F29B7 72.85%);
+        border-image: linear-gradient(96.63deg, #FFFFFF 5.78%, #5F29B7 72.85%);
+        border-image-slice: 1;
+        border-width: 5px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-box {
+            display: inline-block;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 292px;
+
+            &1 {
+                grid-area: 2 / 1 / 3 / 2;
+            }
+
+            &3 {
+                grid-area: 2 / 2 / 3 / 3;
+            }
+        }
+
+        &-title {
+            text-align: left;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 74.4px;
+            letter-spacing: -4px;
+            color: white;
+        }
+
+        &-text {
+            width: 60%;
+            text-align: left;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20.6px;
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .numbers {
+        &__content {
+            &-title {
+                font-size: 170px;
+                line-height: 126.25px;
+
+            }
+        }
+
+        &__list {
+            grid-template-columns: repeat(2, 300px);
+        }
+
+        &__card {
+            height: 190px;
+
+            &-box {
+                height: 190px;
+            }
+
+            &-title {
+                font-size: 60.88px;
+                line-height: 50.74px;
+            }
+
+            &-text {
+                width: 100%;
+                font-size: 17px;
+                line-height: 17.51px;
+            }
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .numbers {
+        padding-bottom: 24%;
+
+        &__header {
+            margin-bottom: 53px;
+        }
+
+        &__span {
+            display: none;
+        }
+
+        &__content {
+            padding-left: 9px;
+
+            &-title {
+                margin-bottom: 11px;
+                letter-spacing: -5px;
+                font-size: 125px;
+                line-height: 116.25px;
+            }
+
+            &-text {
+                margin-bottom: 20%;
+                padding-left: 14px;
+                letter-spacing: -1px;
+                font-size: 29px;
+                line-height: 29.87px;
+            }
+        }
+
+        &__inner {
+            align-items: flex-end;
+        }
+
+        &__statistic {
+            font-size: 14px;
+            line-height: 14.42px;
+        }
+
+        &__list {
+            gap: 12px;
+            grid-template-columns: repeat(2, 210px);
+        }
+
+        &__card {
+            height: 163px;
+
+            &-box {
+                height: 163px;
+            }
+
+            &-title {
+                font-size: 44.88px;
+                line-height: 41.74px;
+            }
+
+            &-text {
+                width: 100%;
+                font-size: 17px;
+                line-height: 17.51px;
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .numbers {
+        &__statistic {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .numbers {
+        padding-bottom: 16%;
+
+        &__header {
+            margin-bottom: 31px;
+        }
+
+        &__title {
+            padding: 10px 0 0 10px;
+            font-size: 37.71px;
+            line-height: 35.07px;
+            letter-spacing: -0.04em;
+        }
+
+        &__content {
+            padding-left: 0;
+
+            &-title {
+                margin-bottom: 15px;
+                font-size: 75px;
+                line-height: 83.7px;
+                letter-spacing: -0.04em;
+            }
+
+            &-text {
+                max-width: 130px;
+                padding-left: 9px;
+                font-size: 16px;
+                line-height: 16.48px;
+                letter-spacing: -0.04em;
+            }
+        }
+
+        &__inner {
+            padding-left: 0;
+        }
+
+        &__list {
+            grid-template-columns: repeat(2, minmax(0, 170px));
+        }
+
+        &__card {
+            padding: 20px 15px;
+            height: 134px;
+
+            &-box {
+                height: 134px;
+            }
+
+            &-title {
+                font-size: 30px;
+                line-height: 34.27px;
+                letter-spacing: -0.04em;
+            }
+
+            &-text {
+                font-size: 12px;
+                line-height: 12.36px;
+                letter-spacing: -0.04em;
+            }
+        }
+    }
+}
