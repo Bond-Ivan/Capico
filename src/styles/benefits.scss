@@ -57,15 +57,42 @@
             background-position: top left;
         }
 
+        // &-box {
+        //     &1 {
+        //         max-width: 670px;
+        //         margin-left: auto;
+        //         padding-right: 6%;
+        //     }
+
+        //     &2 {
+        //         max-width: 780px;
+        //         margin-right: auto;
+        //         padding: 59px 0 0 2.5%;
+        //         background-image: url(images/benefits-preheader.png);
+        //         background-repeat: no-repeat;
+        //         background-size: contain;
+        //     }
+
+        //     &3 {
+        //         max-width: 690px;
+        //         margin-left: auto;
+        //         padding: 50px 0 0 1.5%;
+        //         background-image: url('images/benefits-preheader.png');
+        //         background-repeat: no-repeat;
+        //         background-size: contain;
+        //     }
+        // }
+
         &-box {
             &1 {
-                max-width: 670px;
+                max-width: 1400px;
                 margin-left: auto;
                 padding-right: 6%;
             }
 
             &2 {
-                max-width: 780px;
+                max-width: 1400px;
+
                 margin-right: auto;
                 padding: 59px 0 0 2.5%;
                 background-image: url(images/benefits-preheader.png);
@@ -74,7 +101,8 @@
             }
 
             &3 {
-                max-width: 690px;
+                max-width: 1400px;
+
                 margin-left: auto;
                 padding: 50px 0 0 1.5%;
                 background-image: url('images/benefits-preheader.png');
@@ -179,16 +207,16 @@
 
             &-box {
                 &1 {
-                    max-width: 400px;
+                    // max-width: 400px;
                 }
 
                 &2 {
-                    max-width: 400px;
+                    // max-width: 400px;
                     padding: 28px 0 0 2.5%;
                 }
 
                 &3 {
-                    max-width: 400px;
+                    // max-width: 400px;
                     padding: 56px 0 0 3.5%;
                 }
             }
