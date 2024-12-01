@@ -1,6 +1,6 @@
 .security {
     padding: 60px 0 6% 0;
-    background-image: url('images/security-phone.png');
+    background-image: url('../images/security-phone.png');
     background-repeat: no-repeat;
     background-position: left bottom;
 
@@ -8,7 +8,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        background-image: url('images/numbers-preheader.png');
+        background-image: url('../images/numbers-preheader.png');
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -64,15 +64,15 @@
         }
 
         &1 {
-            background-image: url('images/security-card1.svg');
+            background-image: url('../images/security-card1.svg');
         }
 
         &2 {
-            background-image: url('images/security-card2.svg');
+            background-image: url('../images/security-card2.svg');
         }
 
         &3 {
-            background-image: url('images/security-card3.svg');
+            background-image: url('../images/security-card3.svg');
         }
 
         &-title {

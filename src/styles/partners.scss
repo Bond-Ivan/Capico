@@ -7,7 +7,7 @@
         margin-bottom: 9%;
         display: flex;
         justify-content: space-between;
-        background-image: url('images/numbers-preheader.png');
+        background-image: url('../images/numbers-preheader.png');
         background-repeat: no-repeat;
         background-size: contain;
         flex-wrap: wrap;
@@ -55,19 +55,19 @@
             background-position: center;
 
             &1 {
-                background-image: url('images/home-slide1.png');
+                background-image: url('../images/home-slide1.png');
             }
 
             &2 {
-                background-image: url('images/home-slide2.png');
+                background-image: url('../images/home-slide2.png');
             }
 
             &3 {
-                background-image: url('images/home-slide3.png');
+                background-image: url('../images/home-slide3.png');
             }
 
             &4 {
-                background-image: url('images/home-slide5.png');
+                background-image: url('../images/home-slide5.png');
             }
         }
 

@@ -1,5 +1,5 @@
 .home {
-    background-image: url('images/home-phone.png'), url('images/phone-1.png');
+    background-image: url('../images/home-phone.png'), url('../images/phone-1.png');
     background-repeat: no-repeat, no-repeat;
     background-position: bottom right, right;
     border-radius: 40px;
@@ -109,27 +109,27 @@
             background-repeat: no-repeat;
 
             &1 {
-                background-image: url('images/home-slide1.png');
+                background-image: url('../images/home-slide1.png');
             }
 
             &2 {
-                background-image: url('images/home-slide2.png');
+                background-image: url('../images/home-slide2.png');
             }
 
             &3 {
-                background-image: url('images/home-slide3.png');
+                background-image: url('../images/home-slide3.png');
             }
 
             &4 {
-                background-image: url('images/home-slide4.png');
+                background-image: url('../images/home-slide4.png');
             }
 
             &5 {
-                background-image: url('images/home-slide5.png');
+                background-image: url('../images/home-slide5.png');
             }
 
             &6 {
-                background-image: url('images/home-slide6.png');
+                background-image: url('../images/home-slide6.png');
             }
 
             &__span {

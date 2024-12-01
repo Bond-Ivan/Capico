@@ -5,7 +5,7 @@
         align-items: flex-start;
         justify-content: space-between;
         margin-bottom: 10.6%;
-        background-image: url('images/numbers-preheader.png');
+        background-image: url('../images/numbers-preheader.png');
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -38,50 +38,24 @@
     &__item {
         &-1 {
             padding-bottom: 22%;
-            background-image: url('images/benefits-phone1.png');
+            background-image: url('../images/benefits-phone1.png');
             background-repeat: no-repeat;
             background-position: top left;
         }
 
         &-2 {
             padding-bottom: 20%;
-            background-image: url('images/benefits-phone2.png');
+            background-image: url('../images/benefits-phone2.png');
             background-repeat: no-repeat;
             background-position: top right;
         }
 
         &-3 {
             padding: 8% 0 15% 0;
-            background-image: url('images/benefits-phone3.png');
+            background-image: url('../images/benefits-phone3.png');
             background-repeat: no-repeat;
             background-position: top left;
         }
-
-        // &-box {
-        //     &1 {
-        //         max-width: 670px;
-        //         margin-left: auto;
-        //         padding-right: 6%;
-        //     }
-
-        //     &2 {
-        //         max-width: 780px;
-        //         margin-right: auto;
-        //         padding: 59px 0 0 2.5%;
-        //         background-image: url(images/benefits-preheader.png);
-        //         background-repeat: no-repeat;
-        //         background-size: contain;
-        //     }
-
-        //     &3 {
-        //         max-width: 690px;
-        //         margin-left: auto;
-        //         padding: 50px 0 0 1.5%;
-        //         background-image: url('images/benefits-preheader.png');
-        //         background-repeat: no-repeat;
-        //         background-size: contain;
-        //     }
-        // }
 
         &-box {
             &1 {
@@ -95,7 +69,7 @@
 
                 margin-right: auto;
                 padding: 59px 0 0 2.5%;
-                background-image: url(images/benefits-preheader.png);
+                background-image: url('../images/benefits-preheader.png');
                 background-repeat: no-repeat;
                 background-size: contain;
             }
@@ -105,7 +79,7 @@
 
                 margin-left: auto;
                 padding: 50px 0 0 1.5%;
-                background-image: url('images/benefits-preheader.png');
+                background-image: url('../images/benefits-preheader.png');
                 background-repeat: no-repeat;
                 background-size: contain;
             }

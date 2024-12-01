@@ -1,5 +1,3 @@
-"use strict";
-
 function updateActiveListItem(index) {
 	document.querySelectorAll(".features__item-btn").forEach(function (item) {
 		item.style.color = "#765AB1";
@@ -109,4 +107,3 @@ dropdown.onclick = function () {
 dropdownMobile.onclick = function () {
 	dropdownMobile.classList.toggle("active");
 };
-
