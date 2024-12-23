@@ -1,2 +1,0 @@
-const e=document.querySelector(".burger"),t=document.querySelector(".header__nav-mobile"),o=document.querySelector(".header__nav-mobile__wrapper");document.querySelector(".menu-button-container").addEventListener("click",e=>{e.stopPropagation()}),e.addEventListener("click",()=>{o.classList.toggle("header__nav-mobile__wrapper--active"),t.classList.toggle("header__nav-mobile--active"),o.classList.contains("header__nav-mobile__wrapper--active")?e.style.position="fixed":e.style.position=""});
-//# sourceMappingURL=index.9d9672cf.js.map
