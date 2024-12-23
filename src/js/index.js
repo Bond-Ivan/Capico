@@ -1,3 +1,7 @@
+"use strict";
+
+import * as burger from './burger.js'
+
 function updateActiveListItem(index) {
 	document.querySelectorAll(".features__item-btn").forEach(function (item) {
 		item.style.color = "#765AB1";
