@@ -1,12 +1,12 @@
 {
   "name": "capico-trading",
   "description": "Capico-Trading",
-  "homepage": "https://github.com/Bond-Ivan/Cripto-Project",
+  "homepage": "https://github.com/Bond-Ivan/Capico",
   "version": "1.0.0",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "author": "Bondarenko Ivan",
   "license": "ISC",
@@ -17,8 +17,8 @@
     "svgo": "^3.3.2"
   },
   "dependencies": {
-    "swiper": "^11.0.4",
     "@parcel/transformer-sass": "^2.13.2",
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "swiper": "^11.0.4"
   }
 }
