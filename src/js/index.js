@@ -100,14 +100,3 @@ document.querySelectorAll(".features__item").forEach((item, index) => {
 function show(value) {
 	document.querySelector(".text-box").value = value;
 }
-
-let dropdown = document.querySelector(".dropdown");
-let dropdownMobile = document.querySelector(".dropdown--mobile");
-
-dropdown.onclick = function () {
-	dropdown.classList.toggle("active");
-};
-
-dropdownMobile.onclick = function () {
-	dropdownMobile.classList.toggle("active");
-};

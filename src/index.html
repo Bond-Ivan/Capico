@@ -25,42 +25,33 @@
               height="40"
               alt="Logo"
             />
-            <div class="dropdown">
-              <input class="text-box" type="text" placeholder="en" readonly />
-              <div class="options">
-                <div onclick="show('en')">en</div>
-                <div onclick="show('ru')">ru</div>
-                <div onclick="show('es')">es</div>
-                <div onclick="show('cz')">cz</div>
-              </div>
-            </div>
           </div>
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="header__nav-item">
-                <button type="button" class="header__nav-item__btn">
+                <a href="#features" class="header__nav-item__btn">
                   features
-                </button>
+                </a>
               </li>
               <li class="header__nav-item">
-                <button type="button" class="header__nav-item__btn">
+                <a href="#prices" class="header__nav-item__btn">
                   prices
-                </button>
+                </a>
               </li>
               <li class="header__nav-item">
-                <button type="button" class="header__nav-item__btn">
+                <a href="#partners" class="header__nav-item__btn">
                   partners
-                </button>
+                </a>
               </li>
               <li class="header__nav-item">
-                <button type="button" class="header__nav-item__btn">
+                <a href="#knowledgeBase" class="header__nav-item__btn">
                   knowledge base
-                </button>
+                </a>
               </li>
               <li class="header__nav-item">
-                <button type="button" class="header__nav-item__btn">
+                <a href="#academy" class="header__nav-item__btn">
                   academy
-                </button>
+                </a>
               </li>
             </ul>
           </nav>
@@ -82,6 +73,7 @@
               />
             </svg>
           </button>
+
           <div class="burger">
             <input id="menu-toggle" type="checkbox" />
             <label class="menu-button-container" for="menu-toggle">
@@ -93,29 +85,29 @@
         <nav class="header__nav--table">
           <ul class="header__nav-list">
             <li class="header__nav-item">
-              <button type="button" class="header__nav-item__btn">
+              <a href="#features" class="header__nav-item__btn">
                 features
-              </button>
+              </a>
             </li>
             <li class="header__nav-item">
-              <button type="button" class="header__nav-item__btn">
+              <a href="#prices" class="header__nav-item__btn">
                 prices
-              </button>
+              </a>
             </li>
             <li class="header__nav-item">
-              <button type="button" class="header__nav-item__btn">
+              <a href="#partners" class="header__nav-item__btn">
                 partners
-              </button>
+              </a>
             </li>
             <li class="header__nav-item">
-              <button type="button" class="header__nav-item__btn">
+              <a href="#knowledgeBase" class="header__nav-item__btn">
                 knowledge base
-              </button>
+              </a>
             </li>
             <li class="header__nav-item">
-              <button type="button" class="header__nav-item__btn">
+              <a href="#academy" class="header__nav-item__btn">
                 academy
-              </button>
+              </a>
             </li>
           </ul>
         </nav>
@@ -124,30 +116,21 @@
           <nav class="header__nav-mobile__wrapper">
             <ul class="header__nav-mobile__list">
               <li class="header__nav-item__btn">
-                <button type="button">features</button>
+                <a href="#features" class="header__nav-item__btn">features</a>
               </li>
               <li class="header__nav-item__btn">
-                <button type="button">prices</button>
+                <a href="#prices" class="header__nav-item__btn">prices</a>
               </li>
               <li class="header__nav-item__btn">
-                <button type="button">partners</button>
+                <a href="#partners" class="header__nav-item__btn">partners</a>
               </li>
               <li class="header__nav-item__btn">
-                <button type="button">knowledge base</button>
+                <a href="#knowledgeBase" class="header__nav-item__btn">knowledge base</a>
               </li>
               <li class="header__nav-item__btn">
-                <button type="button">academy</button>
+                <a href="#academy" class="header__nav-item__btn">academy</a>
               </li>
             </ul>
-            <div class="dropdown--mobile">
-              <input class="text-box" type="text" placeholder="en" readonly />
-              <div class="options">
-                <div onclick="show('en')">en</div>
-                <div onclick="show('ru')">ru</div>
-                <div onclick="show('es')">es</div>
-                <div onclick="show('cz')">cz</div>
-              </div>
-            </div>
             <button type="button" class="header__btn-sign-in--mobile">
               sign in
               <svg
@@ -257,7 +240,6 @@
             <svg
               width="90"
               height="90"
-              viewBox="0 0 90 90"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -292,7 +274,7 @@
         <section class="numbers">
           <div class="container-2">
             <div class="numbers__header">
-              <h2 class="numbers__title" data-aos="zoom-in-up">numbers</h2>
+              <h2 class="numbers__title" data-aos="zoom-in-up" id="numbers">numbers</h2>
               <span class="numbers__span">Manage positions on </span>
             </div>
 
@@ -391,7 +373,7 @@
         <section class="advantages">
           <div class="container-2">
             <div class="advantages__header">
-              <h2 class="advantages__title" data-aos="zoom-in-up">
+              <h2 class="advantages__title" data-aos="zoom-in-up" id="knowledgeBase">
                 Everything for your comfortable work
               </h2>
             </div>
@@ -463,7 +445,7 @@
         <section class="features">
           <div class="container-2">
             <div class="features__header">
-              <h2 class="features__title" data-aos="zoom-in-up">features</h2>
+              <h2 class="features__title" data-aos="zoom-in-up" id="features">features</h2>
               <span class="features__span-manage">Manage positions on </span>
             </div>
             <div class="features__content">
@@ -851,7 +833,7 @@
         <section class="trade">
           <div class="container-2">
             <div class="trade__header">
-              <h2 class="trade__title" data-aos="zoom-in-up">Trade anywhere</h2>
+              <h2 class="trade__title" data-aos="zoom-in-up" id="academy">Trade anywhere</h2>
               <span class="trade__span"
                 >All functionality is always at hand.</span
               >
@@ -947,7 +929,7 @@
         <section class="partners">
           <div class="container-2">
             <div class="partners__header">
-              <h2 class="partners__title" data-aos="zoom-in-up">
+              <h2 class="partners__title" data-aos="zoom-in-up" id="partners">
                 our partners
               </h2>
               <p class="partners__text">
@@ -992,7 +974,7 @@
         <section class="lets-try">
           <div class="container-2">
             <span class="lets-try__span">Free use per month</span>
-            <h2 class="lets-try__title" data-aos="zoom-in-up">
+            <h2 class="lets-try__title" data-aos="zoom-in-up" id="prices">
               Try Capico for free per month
             </h2>
             <button type="button" class="trade__btn-create">

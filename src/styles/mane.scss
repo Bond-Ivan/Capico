@@ -57,6 +57,10 @@ p {
   font-weight: inherit;
 }
 
+html {
+  scroll-behavior: smooth
+}
+
 ul,
 ul li {
   list-style: none;
